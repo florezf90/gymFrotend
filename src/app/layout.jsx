@@ -1,5 +1,7 @@
 import { Inter } from 'next/font/google';
 import { Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+
 
 const inter = Inter({ subsets: ['latin'] });
 
