@@ -1,0 +1,19 @@
+.divisor {
+    border-bottom: solid 2px black; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand {
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+.number {
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
