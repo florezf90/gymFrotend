@@ -1,13 +1,12 @@
-import Link from 'next/link';
-import NavigationBtn from '../components/navigationbtn';
+import Image from "next/image";
+import gymSquat from '../../public/gym_squat.jpg'
+import { Container } from "react-bootstrap";
  
 export default function Home() {
     return (
-      <main>
-        <h1 className="text-3xl font-bold my-5">Homepage</h1>
-        <Link href="/about"><NavigationBtn name="About" /></Link>
-        <Link href="/services"><NavigationBtn name="services" /></Link>
-        <Link href="/contact"><NavigationBtn name="contact" /></Link>
+      <main className="bg-black">
+
+          <Image src={gymSquat} alt="squat" className="w-100 h-90"   />
       </main>
     );
 }
