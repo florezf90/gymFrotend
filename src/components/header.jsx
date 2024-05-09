@@ -16,22 +16,32 @@ function Header() {
           <Nav.Link className={styles.number}>1-800-555-1234</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link className={styles.number} >
+          <Nav.Link className={styles.number}>
             Mon - Fri: 8:00AM - 7:00PM | Sat - Sun: Closed
           </Nav.Link>
         </Nav>
       </Navbar>
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Navbar collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="my-3 mx-4" />
-          <Navbar.Collapse id="responsive-navbar-nav" className="my-3 mx-4" >
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            className="my-3 mx-4"
+            style={{ fill: "white" }}
+          />
+          <Navbar.Collapse id="responsive-navbar-nav" className="my-3 mx-4 text-white">
             <Nav className="me-auto">
-             <Nav.Link href="/" >Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/" className={styles.navbarfont}>
+                Home
+              </Nav.Link>
+              <Nav.Link href="/about" className={styles.navbarfont}>
+                About
+              </Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/services">Services</Nav.Link>
-              <Nav.Link href="/contact">
+              <Nav.Link href="/services" className={styles.navbarfont}>
+                Services
+              </Nav.Link>
+              <Nav.Link href="/contact" className={styles.navbarfont}>
                 Get in Touch
               </Nav.Link>
             </Nav>
