@@ -21,12 +21,10 @@ function Header() {
           </Nav.Link>
         </Nav>
       </Navbar>
-      <Navbar collapseOnSelect expand="lg">
+      <Navbar collapseOnSelect expand="lg" variant="dark"  className="mt-3">
         <Container>
           <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"
-            className="my-3 mx-4"
-            style={{ fill: "white" }}
+            aria-controls="responsive-navbar-nav "
           />
           <Navbar.Collapse id="responsive-navbar-nav" className="my-3 mx-4 text-white">
             <Nav className="me-auto">
