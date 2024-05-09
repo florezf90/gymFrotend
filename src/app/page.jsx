@@ -1,12 +1,11 @@
 import Image from "next/image";
-import gymSquat from '../../public/gym_squat.jpg'
-import { Container } from "react-bootstrap";
- 
+import gymSquat from '../../public/saes.webp'
+import styles from './global.module.css' 
 export default function Home() {
     return (
-      <main className="bg-black">
-
-          <Image src={gymSquat} alt="squat" className="w-100 h-90"   />
+      <main  >
+        <Image src={gymSquat} alt="squat" className={`${styles.coverPhoto} mx-auto`} />
+        <div className={styles.imagecontainer}></div>
       </main>
     );
 }
