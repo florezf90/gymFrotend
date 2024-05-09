@@ -1,0 +1,25 @@
+.coverPhoto {
+    width: 95%;
+    height: 95vh;
+    margin-top: 3rem;
+    display: block;
+}
+
+.imagecontainer {
+  position: absolute;
+  transform: skewY(-2.5deg);
+  transform-origin: bottom left;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .coverPhoto {
+        width: 100%;
+        height: 70%;
+    }
+    
+}
