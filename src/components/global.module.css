@@ -8,7 +8,7 @@
 }
 
 .coverPhoto {
-    width: 90%;
+    width: 95%;
     height: 100%;
     margin-top: 3rem;
     display: block;
@@ -31,11 +31,22 @@
 }
 
 .carouselText {
-    margin-bottom: 8%;
+margin-bottom: 8%;
 background: rgba(0, 0, 0, 0.8);
   color: #f1f1f1;
   text-align: center;
   width: 30%;
   padding: 10px 20px;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .carouselText {
+    position: relative;
+    margin-top: 10%;
+    margin-right: 30%;
+    width: 70%;
+    margin-bottom: 1%;
+    }
     
 }
