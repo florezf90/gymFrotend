@@ -15,7 +15,7 @@ function ControlledCarousel() {
     
     <Carousel >
       {carouselItems.map((item, index) => (
-      <CarouselItem key={index}>
+      <CarouselItem key={index} >
         <Image alt="squat" className={`${styles.coverPhoto} mx-auto`} src={item.photo}/>
         <CarouselCaption className={styles.carouselText}>
           <h3>{item.title}</h3>
