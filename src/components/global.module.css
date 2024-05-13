@@ -40,6 +40,21 @@ background: rgba(0, 0, 0, 0.8);
     
 }
 
+.cardsSection {
+    margin-top: 10rem;
+    background-color: green;
+    
+}
+
+.header {
+    width: 50%;
+    border-bottom: solid 3px whitesmoke; 
+    margin-top: 2rem;
+    color: aliceblue;
+}
+
+
+
 @media screen and (max-width: 700px) {
     .carouselText {
     position: relative;
