@@ -40,7 +40,6 @@ export default function Home() {
     return (
       <main>
         <ControlledCarousel />
-        <div className={styles.imagecontainer}></div>
         <CardSection
           sectionTitle={title}
           subtitle={subtitle}
