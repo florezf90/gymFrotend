@@ -5,14 +5,6 @@
     display: block;
 }
 
-.imagecontainer {
-  position: absolute;
-  transform: skewY(-2.5deg);
-  transform-origin: bottom left;
-  width: 100%;
-  height: 100px;
-  background-color: black;
-}
 
 
 
