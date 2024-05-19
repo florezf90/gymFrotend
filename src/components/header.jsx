@@ -2,7 +2,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import styles from './global.module.css'
+import styles from './components.module.css'
 import { CardTitle } from "react-bootstrap";
 
 function Header() {

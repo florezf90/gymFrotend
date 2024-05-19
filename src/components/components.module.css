@@ -1,0 +1,50 @@
+/* navbar style */
+
+.divisor {
+    border-bottom: solid 2px whitesmoke; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand {
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    color: aliceblue;
+}
+
+.number {
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+    color: aliceblue;
+}
+
+
+.navbarfont {
+    color: aliceblue;
+}
+
+.header {
+    width: 50%;
+    padding-top: 1%;
+    border-bottom: solid 3px whitesmoke; 
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* cards style */
+
+.cardsSection {
+    margin-top: 15rem;
+    
+}
+
+
+.cards {
+    margin-top: 10rem;
+}
+
