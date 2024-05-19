@@ -1,11 +1,9 @@
 
 
-import { Inter } from 'next/font/google';
 import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Header from '@florezf90gym/components/header';
 
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
     title: 'Florezf90 Gym',
