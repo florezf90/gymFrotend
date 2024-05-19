@@ -3,6 +3,8 @@ import CardSection from '@florezf90gym/components/cardSection';
 import introCardsInfo from "@florezf90gym/utils/introCardsInfo";
 import CardComponent from '@florezf90gym/components/cardComponent';
 
+import FixedBackground from '@florezf90gym/components/fixedBackground';
+
 export default function Home() {
   const { sectionInfo } = introCardsInfo();
   const { title, subtitle, cards } = sectionInfo;
@@ -21,6 +23,7 @@ export default function Home() {
 
     return (
       <main>
+        <FixedBackground />
         <CardSection
           sectionTitle={title}
           subtitle={subtitle}
