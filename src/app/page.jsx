@@ -10,7 +10,7 @@ export default function Home() {
   const { sectionInfo } = introCardsInfo();
   const { title, subtitle, cards } = sectionInfo;
 
-
+const herotext = "Where Fitness Becomes Your Lifestyle";
 
   const finalCards = cards.map((card, index) => (
     <CardComponent
@@ -24,7 +24,7 @@ export default function Home() {
 
     return (
       <main>
-        <FixedBackground background={gymgirl} />
+        <FixedBackground background={gymgirl} title={title} text={herotext} />
         <CardSection
           sectionTitle={title}
           subtitle={subtitle}

@@ -62,17 +62,18 @@
 
 .fixedImgText {
     color: aliceblue;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 25%;
 }
 
 @media screen and (max-width: 990px) {
     .fixedImgContainer{
-        height: 50vh;
+        height: 55vh;
        background-size:180%;
        background-position-x: 20%;
+       background-position-y: 100%;
 }
  .cardsSection {
      margin-top: 2rem;
@@ -80,7 +81,9 @@
 
  .fixedImgText {
      margin-top: 10%;
-     font-size: 1.5rem;
+     font-size: 120%;
+     margin-left: 15%;
+     width: 40%;
  }
 
 
