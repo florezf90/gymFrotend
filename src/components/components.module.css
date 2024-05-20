@@ -53,21 +53,22 @@
 
 .fixedImgContainer {
 
-    width: 100%;
+    width: 100vw;
     height: 85vh;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-image: url('../../public/gymgirl.webp');
     background-attachment:fixed;
 }
 
-/* @media screen and (max-width: 990px) {
+@media screen and (max-width: 990px) {
     .fixedImgContainer{
-        height: 75vh;
-        background-attachment: scroll;
+        height: 40vh;
+       background-size:150%;
 }
     
-} */
+}
 
 
 
