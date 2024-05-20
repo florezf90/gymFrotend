@@ -1,12 +1,16 @@
 import styles from './components.module.css';
-import gymgirl from '../../public/moriremos.webp';
 
 export default function FixedBackground ({background}) {
 
     return (
       <div
-        className={styles.fixedImgContainer} 
+        className={` d-flex justify-content-start align-items-center  ${styles.fixedImgContainer}`} 
         style={{backgroundImage: `url(${background.src})`}}
-      ></div>
+      >
+        <div className='w-50 mb-5 ' >
+        <h1 className={`${styles.fixedImgText}`}>Florezf90 Gym</h1>
+        <p className={styles.fixedImgText}>1-800-555-1234</p>
+        </div>
+      </div>
     );
 }
