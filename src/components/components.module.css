@@ -39,7 +39,7 @@
 /* cards style */
 
 .cardsSection {
-    margin-top: 15rem;
+    margin-top: 12rem;
     
 }
 
@@ -52,22 +52,41 @@
 /* fixed background */
 
 .fixedImgContainer {
-
-    width: 100%;
+    width: 100vw;
     height: 85vh;
-    background-position: center;
+    background-position: center ;
     background-size: cover;
-    background-image: url('../../public/gymgirl.webp');
+    background-repeat: no-repeat;
     background-attachment:fixed;
 }
 
-/* @media screen and (max-width: 990px) {
-    .fixedImgContainer{
-        height: 75vh;
-        background-attachment: scroll;
+.fixedImgText {
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10%;
 }
-    
-} */
+
+@media screen and (max-width: 990px) {
+    .fixedImgContainer{
+        height: 50vh;
+       background-size:180%;
+       background-position-x: 20%;
+}
+ .cardsSection {
+     margin-top: 2rem;
+ }   
+
+ .fixedImgText {
+     margin-top: 10%;
+     font-size: 1.5rem;
+ }
+
+
+
+ 
+}
 
 
 
