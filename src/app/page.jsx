@@ -1,5 +1,4 @@
 
-import CardSection from '@florezf90gym/components/cardSection';
 import introCardsInfo from "@florezf90gym/utils/introCardsInfo";
 import CardComponent from '@florezf90gym/components/cardComponent';
 
@@ -8,6 +7,7 @@ import gymgirl from "../../public/gymgirl.webp";
 import styles from'../components/components.module.css';
 
 import HomeAboutSect from '@florezf90gym/components/homeAboutSect';
+import HomeBenefits from "@florezf90gym/components/HomeBenefits";
 
 export default function Home() {
   const { sectionInfo } = introCardsInfo();
@@ -34,6 +34,7 @@ const herotext = "Where Fitness Becomes Your Lifestyle";
           style={styles.fixedImgContainer}
         />
         <HomeAboutSect />
+        <HomeBenefits />
       </main>
     );
 }
