@@ -5,6 +5,9 @@ import CardComponent from '@florezf90gym/components/cardComponent';
 
 import FixedBackground from '@florezf90gym/components/fixedBackground';
 import gymgirl from "../../public/gymgirl.webp";
+import styles from'../components/components.module.css';
+
+import HomeAboutSect from '@florezf90gym/components/homeAboutSect';
 
 export default function Home() {
   const { sectionInfo } = introCardsInfo();
@@ -24,12 +27,13 @@ const herotext = "Where Fitness Becomes Your Lifestyle";
 
     return (
       <main>
-        <FixedBackground background={gymgirl} title={title} text={herotext} />
-        <CardSection
-          sectionTitle={title}
-          subtitle={subtitle}
-          cards={finalCards}
+        <FixedBackground
+          background={gymgirl}
+          title={title}
+          text={herotext}
+          style={styles.fixedImgContainer}
         />
+        <HomeAboutSect />
       </main>
     );
 }

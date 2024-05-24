@@ -1,5 +1,5 @@
-export default function NavigationBtn({ name }) {
+export default function NavigationBtn({ name, style }) {
     return (
-        <button className="btn btn-primary rounded-3 fs-5 m-3">{name}</button>
+        <button className={`${style} btn btn-primary rounded-3 fs-5 m-3`}>{name}</button>
     )
 }
