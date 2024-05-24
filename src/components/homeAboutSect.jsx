@@ -1,8 +1,9 @@
 import { Container } from "react-bootstrap";
 import FixedBackground from "./fixedBackground";
 import styles from './components.module.css'
-import curl from '../../public/curling.jpg';
+import curl from '../../public/curling.webp';
 import NavigationBtn from "./navigationbtn";
+import Link from "next/link";
 
 
 export default function HomeAboutSect() {
@@ -20,7 +21,7 @@ export default function HomeAboutSect() {
             consequuntur fugit! Repellat voluptate provident ullam.
           </p>
           <div className=" mt-4">
-            <NavigationBtn name="about" style={`w-50 `} />
+            <Link href="/about"><NavigationBtn name="about" style={`w-50 `} /></Link>
           </div>
         </Container>
       </Container>
