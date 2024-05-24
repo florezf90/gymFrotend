@@ -1,10 +1,10 @@
 import styles from './components.module.css';
 
-export default function FixedBackground ({background, title, text }) {
+export default function FixedBackground ({background, title, text, style }) {
 
     return (
       <div
-        className={` d-flex justify-content-start align-items-center  ${styles.fixedImgContainer}`} 
+        className={` d-flex justify-content-start align-items-center  ${style}`} 
         style={{backgroundImage: `url(${background.src})`}}
       >
         <div className='w-50 mb-5' >
