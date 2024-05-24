@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function HomeAboutSect() {
     return (
       <Container className="my-5 py-5  d-flex flex-md-row  flex-column">
-        <Container className={`${styles.container}  p-3`}>
+        <Container className={`${styles.container}`}>
           <FixedBackground background={curl} style={styles.smallfixedImg} />
         </Container>
         <Container className=" p-5 d-flex flex-column text-center ">
