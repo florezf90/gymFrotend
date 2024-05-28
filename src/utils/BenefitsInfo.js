@@ -6,10 +6,17 @@ export default function benefitsInfo () {
       {
         Btitle: "Benefits",
         Bdescription: "Join us and transform your life",
+        Bimg: moriremos,
       },
       {
         Btitle: "Benefits2",
         Bdescription: "Join us and transform your life once again",
+        Bimg: gym,
+      },
+      {
+        Btitle: "Benefits3",
+        Bdescription: "Join us and transform your life once again",
+        Bimg: gym,
       },
     ];
     return { benefitscards };
