@@ -3,6 +3,7 @@
 import CardSection from "./cardSection";
 import { Container } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
+import CarouselItem from "react-bootstrap/CarouselItem";
 
 import CarouselComponent from "./carousel";
 
@@ -17,14 +18,15 @@ export default function HomeBenefits() {
       <div className="pt-2">
         <CardSection sectionTitle="Join us and transform your life" />
         <Container className="bg-danger py-5  my-5  ">
-          <Carousel ref={null}>
+          <Carousel>
             {benefitscards.map((card, index) => (
+              <CarouselItem key={index}>
               <CarouselComponent
-                key={index}
                 Btitle={card.Btitle}
                 Bdescription={card.Bdescription}
                 Bimg={card.Bimg}
               />
+              </CarouselItem>
             ))}
           </Carousel>
         </Container>
