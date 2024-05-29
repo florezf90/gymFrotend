@@ -3,6 +3,7 @@
 import  Container  from "react-bootstrap/Container"   
 import Card from "react-bootstrap/Card"
 import NavigationBtn from "./navigationbtn"
+import ImageCard from "./cardComponent"
 export default function Team() {
     return (
       <Container className="my-5 py-5 d-flex  flex-column  justify-content-between bg-light ">
@@ -14,84 +15,11 @@ export default function Team() {
           />
         </Container>
         <Container className="d-flex flex-column flex-xl-row justify-content-between  bg-danger mb-5 p-4 ">
-          <Card className="m-3 p-4 ">
-            <Card.Img
-              variant="top"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the cards content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="m-3 p-4  ">
-            <Card.Img
-              variant="top"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the cards content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="m-3 p-4 ">
-            <Card.Img
-              variant="top"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the cards content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="m-3 p-4 ">
-            <Card.Img
-              variant="top"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the cards content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="m-3 p-4 ">
-            <Card.Img
-              variant="top"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the cards content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="m-3 p-4 ">
-            <Card.Img
-              variant="top"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the cards content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <ImageCard />
+          <ImageCard />
+          <ImageCard />
+          <ImageCard />
+          <ImageCard />
         </Container>
       </Container>
     );

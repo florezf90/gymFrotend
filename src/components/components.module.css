@@ -88,6 +88,71 @@
 }
 
 
+/* ------------------ team cards -------------------------------------------------------- */
+.cardContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Set width to 100% if you want the card to be full width */
+}
+
+.imageCard {
+  transition: transform 0.3s ease;
+  padding: 0; /* Remove padding if you want the image to cover the entire card */
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure the image covers the card area */
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0); /* No background color initially */
+  transition: background-color 0.3s ease;
+}
+
+.imageOverlayHover {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background on hover */
+}
+
+.cardBody {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.25rem; /* Add padding to the card body */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardTitle {
+  color: white; /* Make title white for better visibility on dark background */
+  display: none;
+}
+
+.cardButton {
+  display: none; /* Hide the button by default */
+}
+
+/* Show the title and button when the card container is hovered */
+.cardContainer:hover .cardTitle,
+.cardContainer:hover .cardButton {
+  display: block;
+}
+
+
 /* ------------------ media queries -------------------------------------------------------- */
 
 @media screen and (max-width: 1500px) {
