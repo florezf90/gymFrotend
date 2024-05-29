@@ -1,6 +1,6 @@
 
 
-import { Container } from 'react-bootstrap';
+import  Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Header from '@florezf90gym/components/header';
 

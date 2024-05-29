@@ -1,6 +1,5 @@
-'use client';
 
-import { Container } from "react-bootstrap";
+import  Container  from "react-bootstrap/Container";
 import Image from "next/image";
 
 
@@ -16,8 +15,8 @@ export default function CarouselComponent({Btitle, Bdescription, Bimg}) {
             <Image
               src={Bimg}
               alt="Picture of the author"
-              width={500}
-              height={500}
+              width={700}
+              height={550}
             />
         </Container>
         </Container>
