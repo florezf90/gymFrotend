@@ -11,6 +11,8 @@ import HomeAboutSect from '@florezf90gym/components/homeAboutSect';
 import HomeBenefits from "@florezf90gym/components/HomeBenefits";
 import Team from "@florezf90gym/components/Team";
 
+import Memberships from "@florezf90gym/components/memberships";
+
 
 export default function Home() {
 
@@ -31,6 +33,7 @@ export default function Home() {
         <HomeAboutSect />
         <HomeBenefits />
         <Team />
+        <Memberships />
       </main>
     );
 }
