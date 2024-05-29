@@ -1,4 +1,3 @@
-import moriremos from '../../public/moriremos.webp';
 import gym from '../../public/transparentSec.webp';
 
 export default function benefitsInfo () {
@@ -6,7 +5,7 @@ export default function benefitsInfo () {
       {
         Btitle: "Benefits",
         Bdescription: "Join us and transform your life",
-        Bimg: moriremos,
+        Bimg: gym,
       },
       {
         Btitle: "Benefits2",

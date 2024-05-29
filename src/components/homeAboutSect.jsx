@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import  Container  from "react-bootstrap/Container";
 import FixedBackground from "./fixedBackground";
 import styles from './components.module.css'
 import curl from '../../public/curling.webp';

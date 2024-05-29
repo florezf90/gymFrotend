@@ -1,7 +1,6 @@
-'use client';
 
 import CardSection from "./cardSection";
-import { Container } from "react-bootstrap";
+import  Container  from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import CarouselItem from "react-bootstrap/CarouselItem";
 

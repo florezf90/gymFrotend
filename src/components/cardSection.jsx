@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import styles from "./components.module.css";
 
 export default function CardSection({sectionTitle, subtitle, cards}) {
